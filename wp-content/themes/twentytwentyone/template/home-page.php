@@ -65,14 +65,14 @@
   
 				<div class="main_fifth_section">
 				<div class="container">
-				
+				<?php echo do_shortcode('[TABS_R id=106]'); ?>
 				</div>
 				</div>
 					
 				<div class="main_sixth_section">
 				<div class="container">
 				<div class="our-result-title">
-				<h2><?php the_field("our_result_tab_title"); ?></h2>
+				<h2><?php the_field(""); ?></h2>
 				</div>
 				
             <div class="inner-content">
