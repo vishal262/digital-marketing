@@ -30,9 +30,9 @@
  
   <div class="main_third_section">
   <div class="container">
-  <?php the_field("recognised_by"); ?> 
+  <h2><?php the_field("recognised_by"); ?> </h2>
 	<div class="forbe-content-section">
-	<?php the_field("forbes_agency_council"); ?>
+	     <?php the_field("forbes_agency_council"); ?>
 	</div>
   
   <div class="forbe-content-section specialist-section ">
@@ -45,7 +45,7 @@
 				<div class="main_fourth_section">
 				<div class="container">
 				<div class="technolog-section">
-				<?php the_field("technologies"); ?>
+				<?php the_field("technologies_we_have_expertise_in_section"); ?>
 				</div>
 
                     <div class="iner-section">
@@ -72,7 +72,7 @@
 				<div class="main_sixth_section">
 				<div class="container">
 				<div class="our-result-title">
-				<h2><?php the_field("our_result_title"); ?></h2>
+				<h2><?php the_field("our_result_tab_title"); ?></h2>
 				</div>
 				
             <div class="inner-content">
