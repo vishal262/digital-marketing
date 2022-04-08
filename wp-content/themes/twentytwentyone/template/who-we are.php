@@ -18,8 +18,8 @@
 
 		<div class="main_about_us">
 			<div class="container">
-			<div class="about_us_content"><?php the_field("about_us"); ?>
-			<div class="we-develiver-best"><?php the_field("we_deliver"); ?></div>
+			<div class="about_us_content"><?php the_field("about_us_section"); ?>
+			<div class="we-develiver-best"><?php the_field("we_deliver_section"); ?></div>
 			</div>
             <div class="we-ranked-section">
 			<div class="keyword-ranked"><?php the_field("key_word_section"); ?></div>
@@ -59,13 +59,13 @@
 		 
 		<div class="main-glimpse-section">
             <div class="container">
-			  <h3><?php the_field("glimpse_of_our"); ?></h3>
+			  <h3><?php the_field("glimpse_of_our_happy_clients!_title"); ?></h3>
 	           <div class="glimpse-inner-content">
 			    <?php
-				 if( have_rows('image_with_text_testimonial') ):
-				 while( have_rows('image_with_text_testimonial') ) : the_row();
+				 if( have_rows('glimpse_of_our_happy_clients!_content') ):
+				 while( have_rows('glimpse_of_our_happy_clients!_content') ) : the_row();
 				
-			     echo get_sub_field('glimpse-content');
+			     echo get_sub_field('glimpse_content');
 			     endwhile;		
 			     endif;
 			    ?> 
@@ -76,8 +76,8 @@
 
 	<div class="reviews-section">
 	  <div class="container">
-	  <div class="thousand-title"><h2><?php the_field("thousand_of_reviews_build"); ?></h2></div>
-	  <div class="reviews-image"><?php the_field("reviews_build"); ?></div>
+	  <div class="thousand-title"><h2><?php the_field("thousand_of_reviews_build_title"); ?></h2></div>
+	  <div class="reviews-image"><?php the_field("thousand_of_reviews_build"); ?></div>
 	 </div>
     </div>
 	

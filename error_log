@@ -122,3 +122,38 @@ Stack trace:
   thrown in /home2/dbuglndz/public_html/developer.dbuglab.com/digital-marketing/wp-content/themes/twentytwentyone/template/home-page.php on line 19
 [07-Apr-2022 22:48:36 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home2/dbuglndz/public_html/developer.dbuglab.com/digital-marketing/wp-content/themes/twentytwentyone/template/home-page.php on line 155
 [07-Apr-2022 22:48:52 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home2/dbuglndz/public_html/developer.dbuglab.com/digital-marketing/wp-content/themes/twentytwentyone/template/home-page.php on line 155
+[08-Apr-2022 16:14:12 UTC] mysqldump: [Warning] Using a password on the command line interface can be insecure.
+
+[08-Apr-2022 16:14:12 UTC] Class ZipArchive
+[08-Apr-2022 16:14:12 UTC] number_of_existing_backups
+[08-Apr-2022 16:14:12 UTC] 1
+[08-Apr-2022 16:14:12 UTC] number_of_backups_from_user
+[08-Apr-2022 16:14:12 UTC] 
+[08-Apr-2022 17:14:24 UTC] mysqldump: [Warning] Using a password on the command line interface can be insecure.
+
+[08-Apr-2022 17:14:24 UTC] Class ZipArchive
+[08-Apr-2022 17:14:24 UTC] number_of_existing_backups
+[08-Apr-2022 17:14:24 UTC] 2
+[08-Apr-2022 17:14:24 UTC] number_of_backups_from_user
+[08-Apr-2022 17:14:24 UTC] 
+[08-Apr-2022 18:13:38 UTC] mysqldump: [Warning] Using a password on the command line interface can be insecure.
+
+[08-Apr-2022 18:13:38 UTC] Class ZipArchive
+[08-Apr-2022 18:13:39 UTC] number_of_existing_backups
+[08-Apr-2022 18:13:39 UTC] 3
+[08-Apr-2022 18:13:39 UTC] number_of_backups_from_user
+[08-Apr-2022 18:13:39 UTC] 
+[08-Apr-2022 19:13:42 UTC] mysqldump: [Warning] Using a password on the command line interface can be insecure.
+
+[08-Apr-2022 19:13:42 UTC] Class ZipArchive
+[08-Apr-2022 19:13:42 UTC] number_of_existing_backups
+[08-Apr-2022 19:13:42 UTC] 4
+[08-Apr-2022 19:13:42 UTC] number_of_backups_from_user
+[08-Apr-2022 19:13:42 UTC] 
+[08-Apr-2022 20:14:03 UTC] mysqldump: [Warning] Using a password on the command line interface can be insecure.
+
+[08-Apr-2022 20:14:03 UTC] Class ZipArchive
+[08-Apr-2022 20:14:04 UTC] number_of_existing_backups
+[08-Apr-2022 20:14:04 UTC] 5
+[08-Apr-2022 20:14:04 UTC] number_of_backups_from_user
+[08-Apr-2022 20:14:04 UTC] 

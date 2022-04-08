@@ -64,29 +64,29 @@
 				</div>
   
 				<div class="main_fifth_section">
-				<div class="container">
-				<?php echo do_shortcode('[TABS_R id=106]'); ?>
-				</div>
+					<div class="container">
+					     <?php echo do_shortcode('[TABS_R id=106]'); ?>
+					</div>
 				</div>
 					
 				<div class="main_sixth_section">
-				<div class="container">
-				<div class="our-result-title">
-				<h2><?php the_field(""); ?></h2>
-				</div>
-				
-            <div class="inner-content">
-			 <?php
-				 if( have_rows('our_result_content') ):
-				 while( have_rows('our_result_content') ) : the_row();
-				
-			  echo get_sub_field('ready_to_content');
-			  endwhile;		
-			  endif;
-			  ?>
-			  
-			  </div>
-				</div>
+					<div class="container">
+						<div class="our-result-title">
+						   <h2><?php the_field("our_result_driven_process"); ?></h2>
+						</div>
+					
+				<div class="inner-content">
+				 <?php
+					 if( have_rows('ready_to_ace_inner_section') ):
+					 while( have_rows('ready_to_ace_inner_section') ) : the_row();
+					
+				  echo get_sub_field('ready_to_ace_the_test_content');
+				  endwhile;		
+				  endif;
+				  ?>
+				  
+				  </div>
+					</div>
 				</div>
 
 
@@ -94,12 +94,12 @@
 				
 				
 				<div class="how_its_image">
-		        <img src="<?php the_field("how_its"); ?>">
+		        <img src="<?php the_field("how_its_done_image"); ?>">
 		
 				</div>
                <div class="container">
 				<div class="how_its_content ">
-				<?php the_field("how_its_done"); ?>
+				<?php the_field("how_its_done_content"); ?>
 				</div>
 
 				</div>
@@ -109,14 +109,14 @@
 				<div class="main_eight_section">
 				<div class="container">
                 <div class="our_services_title">
-				<?php the_field("our_services"); ?> 
+				<?php the_field("our_services_title"); ?> 
 				</div>
 				<div class="post-section">
 					  <div class="custom_post_section">
          <?php
             $args = array(
             'post_type'=> 'post',
-            'category_name'=> 'Our Services',
+            'category_name'=> 'Home Page',
             'orderby'    => 'ID',
             'post_status' => 'publish',
             'order'       => 'ASC',
@@ -132,7 +132,7 @@
 			<?php //the_content(); ?> <p><?php echo wp_trim_words( get_the_content(), 20 ); ?></p>
 			
 			<div class="arrow-post-image">
-			<a href="<?php echo get_permalink(); ?>"><img src="http://developer.dbuglab.com/digital-marketing/wp-content/uploads/2022/02/arrow-PNG.png" >				
+			<a href="<?php echo get_permalink(); ?>"><img src="https://developer.dbuglab.com/digital-marketing/wp-content/uploads/2022/04/26-.png" >				
 			</a></div>	
 				
          </div>
@@ -149,10 +149,10 @@
 				
 				<div class="ninth-section">
 				
-				<div class="container">
-				<h2><?php the_field("our_happy_customers"); ?></h2>
-				<div class="testimonial-section">
-				
+					<div class="container">
+					   <h2><?php the_field("our_happy_customers_title"); ?></h2>
+					<div class="testimonial-section">
+				<?php echo do_shortcode( '[rt-testimonial id="144" title=""]' ) ?>
 				</div>
 				</div>
 				</div>
@@ -160,9 +160,9 @@
 				
 				<div class="tenth-section">
 				<div class="container">
-				<h2><?php the_field("why_should_you"); ?></h2>
+				
 				<div class="project-content-section">
-				<?php the_field("completed_projects_text"); ?>
+				<?php the_field("why_should_you_trust_us_section"); ?>
 				</div>
 				</div>
 				</div>
@@ -204,17 +204,16 @@
 				</div>--->
 				
 				<div class="twelve-section">
+					<div class="container">				
+							<div class="latest-section">
+								<?php the_field("latest_projects_section"); ?>
+							</div>
+					</div>
+				</div>
 				
-				<div class="container">
-				<h2><?php the_field("latest_projects"); ?></h2>
-				<div class="latest-section">
-				<?php the_field("latest_projects_image"); ?>
-				</div>
-				</div>
-				</div>
 					<div class="newsletter-section">	
 				<div class="container">
-						
+					<?php echo do_shortcode( '[nls_form]' ) ?> 	
 				</div>
 				</div>
 				
